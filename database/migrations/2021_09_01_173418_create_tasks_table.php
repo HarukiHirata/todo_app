@@ -17,8 +17,9 @@ class CreateTasksTable extends Migration
             $table->unsignedBigInteger('id', true);
             $table->unsignedBigInteger('user_id');
             $table->longText('content');
-            $table->dateTime('deadline');
             $table->integer('status')->default(0);
+            $table->date('deadline_date');
+            $table->time('deadline_time');
             $table->foreign('user_id')->references('id')->on('users');
         });
     }

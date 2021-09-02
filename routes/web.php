@@ -24,3 +24,5 @@ Auth::routes();
 
 Route::get('/home', [TaskController::class, 'index'])->name('home');
 Route::post('/store', [TaskController::class, 'store'])->name('store');
+Route::get('/edit/{id}', [TaskController::class, 'edit'])->name('edit');
+Route::post('/update', [TaskController::class, 'update'])->name('update');
