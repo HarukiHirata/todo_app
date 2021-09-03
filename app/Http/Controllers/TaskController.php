@@ -20,6 +20,9 @@ class TaskController extends Controller
 
   public function store(Request $request)
   {
+      $request->validate([ 'content' => 'required' ]);
+      $request->validate([ 'deadline_date' => 'required' ]);
+      $request->validate([ 'deadline_time' => 'required' ]);
       $task = new Task;
       $task->user_id = \Auth::id();
       $task->content = $request->content;
@@ -47,6 +50,9 @@ class TaskController extends Controller
 
   public function update(Request $request)
   {
+      $request->validate([ 'content' => 'required' ]);
+      $request->validate([ 'deadline_date' => 'required' ]);
+      $request->validate([ 'deadline_time' => 'required' ]);
       $task = Task::find($request->task_id);
       $task->user_id = \Auth::id();
       $task->content = $request->content;
@@ -56,6 +62,13 @@ class TaskController extends Controller
 
       $task->save();
 
+      return redirect ( route('home') );
+  }
+
+  public function destroy(Request $request)
+  {
+      $posts = $request->all();
+      Task::where('id', $posts['task_id'])->update(['status' => 1]);
       return redirect ( route('home') );
   }
 }
