@@ -43,7 +43,7 @@
         @if (Route::has('login'))
             @auth
                 <button type="button" class="btn btn-info col-md-6 col-sm-10 my-5">
-                    <a href="{{ url('/home') }}" class="top-link">ホーム</a>
+                    <a href="{{ url('/home') }}" class="top-link">ホーム画面</a>
                 </button>
             @else
                 <button type="button" class="btn btn-info col-md-6 col-sm-10 my-5">
