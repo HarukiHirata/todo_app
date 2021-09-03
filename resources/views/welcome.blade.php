@@ -42,16 +42,10 @@
         </div>
         @if (Route::has('login'))
             @auth
-                <button type="button" class="btn btn-info col-md-6 col-sm-10 my-5">
-                    <a href="{{ url('/home') }}" class="top-link">ホーム画面</a>
-                </button>
+                <a href="{{ url('/home') }}" class="top-link">ホーム画面</a>
             @else
-                <button type="button" class="btn btn-info col-md-6 col-sm-10 my-5">
-                    <a href="{{ route('register') }}" class="top-link">新規登録</a>
-                </button>
-                <button type="button" class="btn btn-info col-md-6 col-sm-10">
-                    <a href="{{ route('login') }}" class="top-link">ログイン</a>
-                </button>
+                <a href="{{ route('register') }}" class="top-link">新規登録</a>
+                <a href="{{ route('login') }}" class="top-link">ログイン</a>
             @endauth
         @endif
     </body>
