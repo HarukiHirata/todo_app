@@ -7,8 +7,6 @@ use App\Models\Task;
 
 class TaskController extends Controller
 {
-
-  // タスク一覧
   public function index()
   {
       $tasks = Task::select('tasks.*')
@@ -20,7 +18,6 @@ class TaskController extends Controller
       return view('create', compact('tasks'));
   }
 
-  // タスク保存
   public function store(Request $request)
   {
       $request->validate([ 'content' => 'required' ]);
@@ -38,7 +35,6 @@ class TaskController extends Controller
       return redirect ( route('home') );
   }
 
-  // タスク編集
   public function edit($id)
   {
       $tasks = Task::select('tasks.*')
@@ -52,7 +48,6 @@ class TaskController extends Controller
       return view('edit', compact('tasks', 'edit_task'));
   }
 
-  // タスク更新
   public function update(Request $request)
   {
       $request->validate([ 'content' => 'required' ]);
@@ -70,7 +65,6 @@ class TaskController extends Controller
       return redirect ( route('home') );
   }
 
-  // タスク削除
   public function destroy(Request $request)
   {
       $posts = $request->all();

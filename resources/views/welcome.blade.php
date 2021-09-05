@@ -28,11 +28,7 @@
             text-align: center;
         }
         .top-link {
-            color: white;
             cursor: pointer;
-        }
-        .top-link:hover {
-            color: white;
         }
         </style>
     </head>
