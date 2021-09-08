@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
+=======
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TaskController;
 
+>>>>>>> origin/develop
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +22,8 @@ use App\Http\Controllers\TaskController;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
+=======
 
 Auth::routes();
 
@@ -27,3 +32,4 @@ Route::post('/store', [TaskController::class, 'store'])->name('store');
 Route::get('/edit/{id}', [TaskController::class, 'edit'])->name('edit');
 Route::post('/update', [TaskController::class, 'update'])->name('update');
 Route::post('/destroy', [TaskController::class, 'destroy'])->name('destroy');
+>>>>>>> origin/develop
