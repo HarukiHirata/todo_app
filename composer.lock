@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "6cadd819a6415b190ae2704ced6e6c8b",
+=======
+    "content-hash": "f92dca6b0b8ca69708e45a35a49e4caf",
+>>>>>>> origin/develop
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -879,6 +883,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v8.59.0",
             "source": {
                 "type": "git",
@@ -889,6 +894,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/51d4755cc6232e7f8abb437567d713fa37661da2",
                 "reference": "51d4755cc6232e7f8abb437567d713fa37661da2",
+=======
+            "version": "v8.57.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "6de01746680d7bc7e239b20ec5cdfe70ce586235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6de01746680d7bc7e239b20ec5cdfe70ce586235",
+                "reference": "6de01746680d7bc7e239b20ec5cdfe70ce586235",
+>>>>>>> origin/develop
                 "shasum": ""
             },
             "require": {
@@ -1043,7 +1060,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2021-09-07T13:29:53+00:00"
+=======
+            "time": "2021-08-27T13:34:11+00:00"
+>>>>>>> origin/develop
         },
         {
             "name": "laravel/sanctum",
@@ -1178,6 +1199,67 @@
             "time": "2021-03-02T16:53:12+00:00"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "laravel/ui",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "07d725813350c695c779382cbd6dac0ab8665537"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/07d725813350c695c779382cbd6dac0ab8665537",
+                "reference": "07d725813350c695c779382cbd6dac0ab8665537",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.42",
+                "illuminate/filesystem": "^8.42",
+                "illuminate/support": "^8.42",
+                "illuminate/validation": "^8.42",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "source": "https://github.com/laravel/ui/tree/v3.3.0"
+            },
+            "time": "2021-05-25T16:45:33+00:00"
+        },
+        {
+>>>>>>> origin/develop
             "name": "league/commonmark",
             "version": "2.0.2",
             "source": {
@@ -1618,6 +1700,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "2.53.1",
             "source": {
                 "type": "git",
@@ -1628,6 +1711,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
                 "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
+=======
+            "version": "2.52.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/369c0e2737c56a0f39c946dd261855255a6fccbe",
+                "reference": "369c0e2737c56a0f39c946dd261855255a6fccbe",
+>>>>>>> origin/develop
                 "shasum": ""
             },
             "require": {
@@ -1639,7 +1734,11 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.7",
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.0",
+=======
+                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+>>>>>>> origin/develop
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
@@ -1708,7 +1807,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-09-06T09:29:23+00:00"
+=======
+            "time": "2021-08-14T19:10:52+00:00"
+>>>>>>> origin/develop
         },
         {
             "name": "nette/schema",
@@ -5563,6 +5666,7 @@
         },
         {
             "name": "fakerphp/faker",
+<<<<<<< HEAD
             "version": "v1.16.0",
             "source": {
                 "type": "git",
@@ -5573,11 +5677,27 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/271d384d216e5e5c468a6b28feedf95d49f83b35",
                 "reference": "271d384d216e5e5c468a6b28feedf95d49f83b35",
+=======
+            "version": "v1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FakerPHP/Faker.git",
+                "reference": "89c6201c74db25fa759ff16e78a4d8f32547770e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/89c6201c74db25fa759ff16e78a4d8f32547770e",
+                "reference": "89c6201c74db25fa759ff16e78a4d8f32547770e",
+>>>>>>> origin/develop
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0",
+<<<<<<< HEAD
                 "psr/container": "^1.0 || ^2.0",
+=======
+                "psr/container": "^1.0",
+>>>>>>> origin/develop
                 "symfony/deprecation-contracts": "^2.2"
             },
             "conflict": {
@@ -5597,7 +5717,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "v1.16-dev"
+=======
+                    "dev-main": "v1.15-dev"
+>>>>>>> origin/develop
                 }
             },
             "autoload": {
@@ -5622,9 +5746,15 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/FakerPHP/Faker/tree/v1.16.0"
             },
             "time": "2021-09-06T14:53:37+00:00"
+=======
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.15.0"
+            },
+            "time": "2021-07-06T20:39:40+00:00"
+>>>>>>> origin/develop
         },
         {
             "name": "filp/whoops",
@@ -6682,6 +6812,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "9.5.9",
             "source": {
                 "type": "git",
@@ -6692,6 +6823,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
                 "reference": "ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
+=======
+            "version": "9.5.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "191768ccd5c85513b4068bdbe99bb6390c7d54fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/191768ccd5c85513b4068bdbe99bb6390c7d54fb",
+                "reference": "191768ccd5c85513b4068bdbe99bb6390c7d54fb",
+>>>>>>> origin/develop
                 "shasum": ""
             },
             "require": {
@@ -6769,7 +6912,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.9"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.8"
+>>>>>>> origin/develop
             },
             "funding": [
                 {
@@ -6781,7 +6928,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-08-31T06:47:40+00:00"
+=======
+            "time": "2021-07-31T15:17:34+00:00"
+>>>>>>> origin/develop
         },
         {
             "name": "sebastian/cli-parser",
@@ -7636,7 +7787,10 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "abandoned": true,
+=======
+>>>>>>> origin/develop
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
