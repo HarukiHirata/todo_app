@@ -18,6 +18,7 @@
         @endforeach
     </div>
 </div>
+<a href="/contact">お問い合わせ</a>
 @endsection
 
 @section('content2')

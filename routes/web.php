@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TaskController;
+use App\Http\Controllers\ContactController;
 
 
 /*
@@ -27,3 +28,4 @@ Route::post('/store', [TaskController::class, 'store'])->name('store');
 Route::get('/edit/{id}', [TaskController::class, 'edit'])->name('edit');
 Route::post('/update', [TaskController::class, 'update'])->name('update');
 Route::post('/destroy', [TaskController::class, 'destroy'])->name('destroy');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
